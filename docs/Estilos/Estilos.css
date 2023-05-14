@@ -1,42 +1,42 @@
 main{
     height: 830px;
-    width: 1200px;
+    width: 900px;
     margin: auto;
 }
 header{ 
+    background-color: darkgrey;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border : 2px solid #ff00ff ;
     height : 150px;
-    width: 1196px ;
+    width: 900px ;
 }
 nav{
-    
+    background-color: #0B5D2B;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border : 2px solid #ff00ff ;
     height : 60px;
-    width: 1196px;
+    width: 900px;
     margin-bottom: 10px;
 }
 section{
     height: 450px;
-    width: 1196px;
+    width: 900px;
 }
 footer {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border : 2px solid #00ff ; 
     height: 100px;
-    width: 1196px;
+    width: 900px;
     margin-top: 10px;
 }
 aside{ 
     border-radius: 16px;
-    border : 2px solid #ff00ff ; 
     float: right;
     height: 446px;
-    width: 400px; 
+    width: 370px; 
 }
 #art1{
     border-top-right-radius: 10px;
@@ -44,7 +44,7 @@ aside{
     border : 2px solid #ff00ff ; 
     display: inline-block;
     height: 215px;
-    width: 760px;
+    width: 500px;
 }
 #art2{
     border-bottom-left-radius: 10px;
@@ -52,6 +52,80 @@ aside{
     border : 2px solid #ff00ff ; 
     display: inline-block;
     height: 215px;
-    width: 760px;
+    width: 500px;
     margin-top: 5px;
+}
+article {
+    background-color:khaki    ;
+}
+#art1-1 , #art2-1{
+    text-align: left;
+    display: block;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 20px;
+    width: auto;
+}
+#art1-2 { 
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    height: 150px;
+    padding-left: 20px;
+    width: 250px;
+}
+#Aside1-1 { 
+    border-radius: 10px;
+    display: inline-block;
+    height: 150px;
+    width: 120px;
+    margin-right: 80px;
+}
+#dog1 { 
+    border-radius: 10px;
+    border: 2px solid black; 
+    display: inline-block;
+    height: 150px;
+    width: 120px;
+    margin-right: 80px;
+
+}
+
+#art2-2{ 
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    height: 150px;
+    padding-left: 20px;
+    width: 250px;
+}
+#Aside2-2 { 
+    border-radius: 10px;
+    display: inline-block;
+    height: 150px;
+    width: 120px;
+    margin-right: 80px;
+}
+#dog2{ 
+    border-radius: 10px;
+    border: 2px solid black; 
+    display: inline-block;
+    height: 150px;
+    width: 120px;
+    margin-right: 80px;
+}
+
+#asideT {
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+    background-color: #034D20 ; 
+    font-size: 20px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    width: auto; 
 }
