@@ -94,7 +94,7 @@ article {
 
 }
 
-#art2-2{ 
+#art2-2{  
     display: inline-block;
     font-size: 12px;
     font-weight: 500;
@@ -104,10 +104,11 @@ article {
 }
 #Aside2-2 { 
     border-radius: 10px;
-    display: inline-block;
+    float: right;
     height: 150px;
-    width: 120px;
     margin-right: 80px;
+    width: 120px;
+
 }
 #dog2{ 
     border-radius: 10px;
