@@ -12,6 +12,8 @@ header{
     width: 900px ;
 }
 nav{
+    display: flex;
+    justify-content: space-around;
     background-color: #0B5D2B;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -58,7 +60,7 @@ aside{
 article {
     background-color:khaki    ;
 }
-#art1-1 , #art2-1{
+.artt{
     text-align: left;
     display: block;
     color: black;
@@ -69,7 +71,7 @@ article {
     padding-left: 20px;
     width: auto;
 }
-#art1-2 { 
+.artt2 { 
     display: inline-block;
     font-size: 12px;
     font-weight: 500;
@@ -77,14 +79,14 @@ article {
     padding-left: 20px;
     width: 250px;
 }
-#Aside1-1 { 
+.aside1 { 
     border-radius: 10px;
     display: inline-block;
     height: 150px;
     width: 120px;
     margin-right: 80px;
 }
-#dog1 { 
+.dog { 
     border-radius: 10px;
     border: 2px solid black; 
     display: inline-block;
@@ -93,33 +95,7 @@ article {
     margin-right: 80px;
 
 }
-
-#art2-2{  
-    display: inline-block;
-    font-size: 12px;
-    font-weight: 500;
-    height: 150px;
-    padding-left: 20px;
-    width: 250px;
-}
-#Aside2-2 { 
-    border-radius: 10px;
-    float: right;
-    height: 150px;
-    margin-right: 80px;
-    width: 120px;
-
-}
-#dog2{ 
-    border-radius: 10px;
-    border: 2px solid black; 
-    display: inline-block;
-    height: 150px;
-    width: 120px;
-    margin-right: 80px;
-}
-
-#asideT {
+#Title {
     border-top-right-radius: 14px;
     border-top-left-radius: 14px;
     background-color: #034D20 ; 
@@ -130,3 +106,15 @@ article {
     color: white;
     width: auto; 
 }
+.menu {
+    padding-top: 15px;
+    outline: none;
+    text-decoration: none;
+    text-size-adjust: 20px;
+}
+a:link {
+    color: white;
+  }
+a:visited {
+    color: white;
+  }
